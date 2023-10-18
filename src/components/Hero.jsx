@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hero = () => {
+export default function Hero() {
   return ( 
     <div className='max-w-[1640px] mx-auto p-4'>
         <div className='max-h-[500px] relative'>
@@ -13,6 +13,4 @@ const Hero = () => {
         </div>
     </div>
   )
-}
-
-export default Hero
+};

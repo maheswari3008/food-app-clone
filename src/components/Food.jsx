@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { data } from '../data/data.js';
 
-const Food = () => {
-  //   console.log(data);
+export default function Food() {
   const [foods, setFoods] = useState(data);
 
   //   Filter Type burgers/pizza/etc
@@ -126,5 +125,3 @@ const Food = () => {
     </div>
   );
 };
-
-export default Food;

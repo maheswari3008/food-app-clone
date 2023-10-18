@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeadlineCards = () => {
+export default function HeadlineCards() {
   return (
     <div className='max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6'>
       {/* Card */}
@@ -48,5 +48,3 @@ const HeadlineCards = () => {
     </div>
   );
 };
-
-export default HeadlineCards;

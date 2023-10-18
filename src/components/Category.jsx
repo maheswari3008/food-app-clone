@@ -1,8 +1,7 @@
 import React from 'react';
 import { categories } from '../data/data.js';
 
-const Category = () => {
-  console.log(categories);
+export default function Category() {
   return (
     <div className='max-w-[1640px] m-auto px-4 py-12'>
       <h1 className='text-orange-600 font-bold text-4xl text-center'>
@@ -23,5 +22,3 @@ const Category = () => {
     </div>
   );
 };
-
-export default Category;
